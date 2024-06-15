@@ -11,9 +11,19 @@
  2. 借用必须有效
 - 切片Slice 
  1. 对数组的引用，为可变 || 不可变
- 
+
 - 智能指针 ？？？
 
 - 生命周期 Lifetimes
 
 - Drop Trait - 一个值的所有权结束，如果他实现了Drop trait ，Rust会自动调用drop方法来执行清理工作
+
+
+struct 结构体 要实例化
+impl 定义方法
+enum 枚举
+
+Vector动态数组
+
+
+Strings 字符串 || &str
