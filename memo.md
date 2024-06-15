@@ -24,6 +24,6 @@ impl 定义方法
 enum 枚举
 
 Vector动态数组
+ 
 
-
-Strings 字符串 || &str
+- Strings 字符串 || &str --好复杂的  
