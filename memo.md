@@ -39,3 +39,16 @@ enum Option<T>{
 }
 
 ```
+/// 文档注释
+cargo doc --open 生成文档
+
+- Result 结果
+``` rust
+//  True Error
+enum Result<T, E> {
+    Ok(T),
+    Err(E),
+}
+```
+
+- HashMap 键值对
