@@ -27,3 +27,15 @@ Vector动态数组
  
 
 - Strings 字符串 || &str --好复杂的  
+
+
+- Derive 
+
+- 结构Option 一个变量要么有值Some(T)，要么为空None
+```   rust
+enum Option<T>{
+    Some(T),
+    None,
+}
+
+```
