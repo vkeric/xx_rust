@@ -16,3 +16,4 @@
         None => println!("no locker assigned"),
     }
  }
+//  Option
