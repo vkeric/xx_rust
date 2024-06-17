@@ -51,4 +51,41 @@ enum Result<T, E> {
 }
 ```
 
-- HashMap 键值对
+- HashMap 键值对 
+
+- 闭包  || 
+
+``` rust
+fn add(a:i32,b:i32)->i32{
+    a+b
+}
+
+fn main(){
+    let sum = add(1,1);
+
+    let add = |a;i32,b:i32|->{
+        a+b
+    };
+
+    let add = |a,b| a+b;
+    let sum = add(1,1);
+}
+
+```
+
+- Map 转换数据
+
+``` rust
+ 具体看示例 a21
+```
+
+
+- iterator 迭代器
+
+- Range 创建值范围的一种自动方式
+
+- if let 
+- while let 
+- Modules 模块
+
+- test 测试
