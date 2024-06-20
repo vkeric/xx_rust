@@ -12,6 +12,7 @@
 // * Use a single function to print out the perimeter of the shapes
 //   * The function must utilize impl trait as a function parameter
 
+// 特征
 trait Perimeter {
     fn calculate_perimeter(&self) -> i32;
 }
