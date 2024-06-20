@@ -13,6 +13,7 @@
 //   * The function must utilize impl trait as a function parameter
 
 // 特征
+// trait 有屌用
 trait Perimeter {
     fn calculate_perimeter(&self) -> i32;
 }
