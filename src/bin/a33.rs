@@ -1,4 +1,4 @@
-// 生命周期-函数
+// 生命周期 || 函数
 
 
 fn longest<'a>(a: &'a str, b: &'a str) -> &'a str {
